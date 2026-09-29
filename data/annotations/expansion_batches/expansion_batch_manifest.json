@@ -1,0 +1,68 @@
+{
+  "apology": {
+    "output_path": "data/annotations/expansion_batches/apology_expansion_batch.csv",
+    "rows": 118,
+    "current_counts": {
+      "easy": 17,
+      "near_miss": 17,
+      "mixed_act": 16
+    },
+    "target_per_difficulty": 56
+  },
+  "thanks": {
+    "output_path": "data/annotations/expansion_batches/thanks_expansion_batch.csv",
+    "rows": 118,
+    "current_counts": {
+      "easy": 19,
+      "near_miss": 15,
+      "mixed_act": 16
+    },
+    "target_per_difficulty": 56
+  },
+  "offer": {
+    "output_path": "data/annotations/expansion_batches/offer_expansion_batch.csv",
+    "rows": 118,
+    "current_counts": {
+      "easy": 17,
+      "near_miss": 17,
+      "mixed_act": 16
+    },
+    "target_per_difficulty": 56
+  },
+  "correction": {
+    "output_path": "data/annotations/expansion_batches/correction_expansion_batch.csv",
+    "rows": 118,
+    "current_counts": {
+      "easy": 18,
+      "near_miss": 17,
+      "mixed_act": 15
+    },
+    "target_per_difficulty": 56
+  },
+  "frustration": {
+    "output_path": "data/annotations/expansion_batches/frustration_expansion_batch.csv",
+    "rows": 118,
+    "current_counts": {
+      "easy": 17,
+      "near_miss": 17,
+      "mixed_act": 16
+    },
+    "target_per_difficulty": 56
+  },
+  "preference": {
+    "output_path": "data/annotations/expansion_batches/preference_expansion_batch.csv",
+    "rows": 118,
+    "current_counts": {
+      "easy": 17,
+      "near_miss": 18,
+      "mixed_act": 15
+    },
+    "target_per_difficulty": 56
+  },
+  "summary": {
+    "benchmark_path": "data/annotations/full_uptake_benchmark_v3.jsonl",
+    "target_total_after_expansion": 1008,
+    "total_new_slots": 708,
+    "batch_dir": "data/annotations/expansion_batches"
+  }
+}

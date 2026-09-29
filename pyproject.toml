@@ -1,0 +1,10 @@
+[project]
+name = "speech-act-contract-llms"
+version = "0.1.0"
+description = "Research scaffold for measuring speech-act contract violations in LLM dialogue."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
